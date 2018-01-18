@@ -1,0 +1,9 @@
+*.Rhistory
+*.Rapp.history
+*.RData
+
+batters_stats.csv
+batters_roster.csv
+batters_info.csv
+batterlist.csv
+
