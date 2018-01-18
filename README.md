@@ -7,9 +7,9 @@ First grabs the names of all players for all designated season-organization pair
 
 Next scrapes information from each players' minor league page, even for players on the major league roster for that season-organization pair. Results are output in three tables:
 
-  1) <b>Stats<b>: offensive statistics for batters and pitching statistics for pitchers. With easy modifications, you could pull defensive statistics, but for my personal use, there's much more to be refined with defensive stats, and the defensive stats provided on Baseball-Reference aren't of much use. This includes observations for years spent with foreign or independent league teams, though statistics for those observations are often missing.
-  2) <b>Roster<b>: roster history (list of teams/affiliates player for). For domestic teams and affiliates, exact service dates are provided. Roster history also includes time with foreign or independent league teams, though service dates are often missing.
-  3) <b>Personal Information<b>: personal information. Includes a string variable of their name, position(s) (up to three listed in descending order of games played at each position), batting and throwing handedness, birthdate, birthplace.
+  1) <b>Stats</b>: offensive statistics for batters and pitching statistics for pitchers. With easy modifications, you could pull defensive statistics, but for my personal use, there's much more to be refined with defensive stats, and the defensive stats provided on Baseball-Reference aren't of much use. This includes observations for years spent with foreign or independent league teams, though statistics for those observations are often missing.
+  2) <b>Roster</b>: roster history (list of teams/affiliates player for). For domestic teams and affiliates, exact service dates are provided. Roster history also includes time with foreign or independent league teams, though service dates are often missing.
+  3) <b>Personal Information</b>: personal information. Includes a string variable of their name, position(s) (up to three listed in descending order of games played at each position), batting and throwing handedness, birthdate, birthplace.
 
 All tables are linked by players' Baseball-Reference minor league register ID (variable name `bbrid`)
 
